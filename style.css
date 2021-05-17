@@ -68,6 +68,14 @@ li{
   display: inline;
 }
 
+.card-white {
+    padding: 40px;
+    border: solid 1px white;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
 .fab{
  font-size: 30px;
  padding: 10px;
