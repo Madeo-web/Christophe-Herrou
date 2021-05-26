@@ -68,6 +68,14 @@ li{
   display: inline;
 }
 
+.card-white {
+    padding: 40px;
+    border: solid 1px white;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
 .fab{
  font-size: 30px;
  padding: 10px;
@@ -83,19 +91,19 @@ li{
     color: white;
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
 }
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
